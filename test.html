@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edu Garma</title>
+      <link rel="stylesheet" href="styles/test.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <H1 class="logo">EDU GARMA</H1>
+      <nav>
+        <ul id="menulist">
+          <li><a class="active" href="../website/test.html">Portfolio</a></li>
+          <li><a  href="../website/test2.html">About Me</a></li>
+          <li><a href="../website/test3.html">Contact Me</a></li>
+        </ul>
+      </nav>
+      <img src="../website/images/588a6507d06f6719692a2d15.png" class="menu-icon" onclick="togglemenu()">
+    </div>
+ 
+    <div class="row">
+      <div class="col-1">
+        <h1>Hi There,<br>I'm Edu Garma</h1>
+        <h2>frontend developer</h2>
+        <p>High level experience in Web & App development knowledge.<br>
+            Producing quality work.
+        </p>
+        <a href="../website/test3.html">
+        <button class="contact-button">Contact Me<img src="../website/images/arrow.png"></button>
+        </a>
+      </div>
+      <div class="col-2">
+        <img src="../website/images/Edu.png" class="edu">
+        <div class="color-box"></div>
+      </div>
+  
+    </div>
+
+  </div>
+ 
+  <script>
+    var menulist = document.getElementById("menulist");
+
+    menulist.style.maxHeight = "0px";
+
+    function togglemenu(){
+
+      if(menulist.style.maxHeight == "0px")
+      {
+        menulist.style.maxHeight = "130px";
+      }
+      else
+      {
+        menulist.style.maxHeight = "0px"; 
+      }
+
+    }
+  </script>
+
+  <footer>
+    <div class="footer-content">
+      <a href="../website/test.html">EDU GARMA</a>
+      <p>Thank you for visiting my page, you have reached the end
+         of the website. if you like to go
+         back to the beginning press the logo</p>
+         <ul class="socials">
+          <li><a href="https://sv-se.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="https://www.linkedin.com/login/sv" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>copyright &copy;2022 Edu Garma. designed by <span>Edu Garma</span></p>
+    </div>
+  </footer>
+</body>
+</html>
