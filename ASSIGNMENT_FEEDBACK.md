@@ -1,3 +1,20 @@
+Hi Edu,
+
+The email form works but no information is attached to it. This is because the "name" attribute on the inputs is empty - example from test3.html line 62:
+
+  <div class="inputBox">
+    <input type="text" name="" required="required">
+    <span>Full Name</span>
+  </div>
+
+If the name has a value it will automatically be attached to any emails. You've got the attribute, but no value.
+
+I'd like you to fix it just for your own experience and knowledge, but since everything else looks and works great you have earned a VG grade. 
+
+Well done!
+
+*************************************
+
 Hi Edu!
 
 Great work and nice design, it looks very professional.
@@ -30,7 +47,7 @@ Contact form:
     Email: ✅
     Message: ✅
     Required: ✅
-    Mail to: ❌
+    Mail to: ✅
     When clicking the submit button, the form should fire an "action" that opens up an email client and adds the fields to the email body. This link should help: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail
 
 RWD:
